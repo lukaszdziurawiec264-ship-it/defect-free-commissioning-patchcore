@@ -1,0 +1,15 @@
+{
+  "class_name": "bottle",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 1.0,
+    "n_test": 83
+  },
+  "e0b": {
+    "auroc_anomalib": 1.0,
+    "auroc_own": 1.0,
+    "max_abs_gap_after_class_minmax": 7.872431314592809e-05,
+    "max_abs_score_gap": 0.00377655029296875,
+    "spearman": 0.9999790101171234
+  }
+}

@@ -1,0 +1,33 @@
+# Versions copied from the stored environment.json files.
+# Directory paths from those files are omitted.
+# torchvision is not recorded in either file.
+# timm is not recorded in the MVTec AD file.
+# For MVTec, environment.json records torch CPU and no anomalib.
+# That file may have been written in a step other than feature extraction.
+# The anomalib version 2.7.1 for MVTec comes from results/mvtec/e0/gate.json.
+# Missing versions are not guessed.
+
+[mvtec]
+python=3.13.18
+torch=2.14.1+cpu
+torchvision=not recorded
+timm=not recorded
+anomalib=null
+numpy=2.4.6
+scipy=1.16.3
+pandas=2.2.3
+scikit-learn=1.6.1
+cuda=false
+
+[visa]
+python=3.13.16
+torch=2.14.1+cu130
+torchvision=not recorded
+timm=1.0.31
+anomalib=2.7.1
+numpy=2.4.6
+scipy=1.16.3
+pandas=2.2.3
+scikit-learn=1.6.1
+cuda=true
+gpu=Tesla T4

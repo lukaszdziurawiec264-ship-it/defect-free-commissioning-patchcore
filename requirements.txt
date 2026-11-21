@@ -1,0 +1,17 @@
+# Local test environment used to prepare this repository (Python 3.14).
+# These pins did not produce the MVTec AD or VisA results. See environment_used.txt.
+numpy==2.4.3
+scipy==1.18.1
+pandas==3.1.1
+pyarrow==26.0.1
+scikit-learn==1.9.1
+matplotlib==3.10.8
+PyYAML==6.0.3
+pillow==12.1.1
+pytest==9.1.0
+
+# Not installed in that local environment. Lower bounds only.
+torch>=2.1
+torchvision>=0.16
+timm>=0.9
+anomalib>=2.0

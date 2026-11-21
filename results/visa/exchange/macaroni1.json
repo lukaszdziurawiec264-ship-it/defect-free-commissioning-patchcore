@@ -1,0 +1,14 @@
+{
+  "binomial_tail_p": 0.8817370188148796,
+  "class_name": "macaroni1",
+  "config_hash": "6177f9b75e4f7e32",
+  "defect_auroc_bank_u": 0.8691,
+  "fraction_conformal_p_below_alpha": 0.03,
+  "good_shift_auroc": 0.5119499999999999,
+  "group": "multiple",
+  "mannwhitney_p": 0.7019332481418619,
+  "median_holdout_score": 25.09115695953369,
+  "median_test_good_score": 25.514724731445312,
+  "n_holdout": 600,
+  "n_test_good": 100
+}

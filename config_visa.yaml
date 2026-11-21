@@ -1,0 +1,70 @@
+# Scientific parameters of preregistration_visa.md. Machine-specific paths are not part of the config hash.
+# VISA_DATA, VISA_WORK, VISA_CACHE and the matching --data-root, --work-root, --cache-root override paths.
+
+protocol_version: 2
+dataset: visa
+seed: 42
+class_seed_offset: 1000
+universe_size: 300
+n_calibration_small: 20
+n_calibration_large: 60
+alpha: 0.05
+n_repeats: 20
+n_grid: [1, 2, 4, 8, 16, 32, 64, 128]
+strategies: [random, kcenter]
+aulc_n_max: 32
+practical_tpr: 0.95
+practical_fpr: 0.05
+n_star_min_repeats: 16
+fpr_aulc_margin: 0.01
+tpr_cost_margin: 0.03
+stopping_deltas: [0.025, 0.05, 0.10]
+stopping_delta_main: 0.05
+bootstrap_replicates: 10000
+bootstrap_seed: 42
+budget_seed_tag: 20261120
+budgets: [80, 120, 160, 200, 300]
+budget_grid: [1, 2, 4, 8, 16, 32, 64, 128]
+budget_min_calibration: 20
+pac_epsilon: 0.05
+pac_delta: 0.10
+
+backbone: wide_resnet50_2
+layers: [layer2, layer3]
+resize: 256
+center_crop: 224
+upsample_mode: bilinear
+imagenet_mean: [0.485, 0.456, 0.406]
+imagenet_std: [0.229, 0.224, 0.225]
+feature_batch_size: 8
+distance_query_batch: 8
+distance_train_batch: 16
+
+e0:
+  auroc_mean_tolerance: 0.005
+  spearman_min: 0.99
+  num_neighbors_ref: 9
+  num_neighbors_rq: 1
+  coreset_ratio: 0.1
+  # Operational sanity floor for Anomalib PatchCore trained on the 300-image universe U.
+  mean_auroc_floor: 0.90
+  reference_mean_auroc: 0.95
+
+paths:
+  data_root: data/visa_1cls
+  work_root: visa_runs
+  cache_root: visa_cache
+
+classes:
+  - candle
+  - capsules
+  - cashew
+  - chewinggum
+  - fryum
+  - macaroni1
+  - macaroni2
+  - pcb1
+  - pcb2
+  - pcb3
+  - pcb4
+  - pipe_fryum

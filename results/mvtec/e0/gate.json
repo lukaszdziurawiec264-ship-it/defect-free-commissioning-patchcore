@@ -1,0 +1,392 @@
+{
+  "anomalib_version": "2.7.1",
+  "classes": [
+    "bottle",
+    "cable",
+    "capsule",
+    "hazelnut",
+    "metal_nut",
+    "pill",
+    "screw",
+    "toothbrush",
+    "transistor",
+    "zipper",
+    "carpet",
+    "grid",
+    "leather",
+    "tile",
+    "wood"
+  ],
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "mean_auroc": 0.9887724051444221,
+    "min_auroc": 0.9484451718494271,
+    "per_class": {
+      "bottle": 1.0,
+      "cable": 0.9861319340329835,
+      "capsule": 0.9752692461108895,
+      "carpet": 0.9911717495987158,
+      "grid": 0.9782790309106097,
+      "hazelnut": 1.0,
+      "leather": 1.0,
+      "metal_nut": 0.9980449657869013,
+      "pill": 0.9484451718494271,
+      "screw": 0.9852428776388604,
+      "tile": 0.9884559884559885,
+      "toothbrush": 1.0,
+      "transistor": 1.0,
+      "wood": 0.9894736842105263,
+      "zipper": 0.9910714285714286
+    }
+  },
+  "e0b": {
+    "abs_delta_of_mean_auroc": 2.6592208482889568e-05,
+    "failed_classes": [],
+    "mean_auroc_anomalib": 0.9897595679454386,
+    "mean_auroc_own": 0.9897329757369557,
+    "mean_of_per_class_abs_auroc_delta": 2.6592208482911774e-05,
+    "spearman_median": 0.999994846795222,
+    "spearman_min": 0.9999790101171234
+  },
+  "integrity": {
+    "anomalib_upsampling": "bilinear",
+    "classes": {
+      "bottle": {
+        "distance_vs_knn": {
+          "1": 5.879637648534346e-06,
+          "189": 0.0,
+          "8": 7.406251604426328e-06
+        }
+      },
+      "cable": {
+        "distance_vs_knn": {
+          "1": 1.9337808961785268e-06,
+          "204": 0.0,
+          "8": 1.5393169499779514e-06
+        }
+      },
+      "capsule": {
+        "distance_vs_knn": {
+          "1": 6.494074325128518e-06,
+          "199": 0.0,
+          "8": 4.8985654061351594e-06
+        }
+      },
+      "carpet": {
+        "distance_vs_knn": {
+          "1": 6.086873004827146e-06,
+          "260": 0.0,
+          "8": 4.715557914971859e-06
+        }
+      },
+      "grid": {
+        "distance_vs_knn": {
+          "1": 1.6743344985461196e-06,
+          "244": 0.0,
+          "8": 5.8636723103070766e-06
+        }
+      },
+      "hazelnut": {
+        "distance_vs_knn": {
+          "1": 5.206488351816475e-07,
+          "371": 0.0,
+          "8": 1.5329294972510743e-06
+        }
+      },
+      "leather": {
+        "distance_vs_knn": {
+          "1": 5.000098399372347e-06,
+          "225": 0.0,
+          "8": 1.0431587458811747e-05
+        }
+      },
+      "metal_nut": {
+        "distance_vs_knn": {
+          "1": 1.206061819047182e-06,
+          "200": 0.0,
+          "8": 3.2058007507402486e-06
+        }
+      },
+      "pill": {
+        "distance_vs_knn": {
+          "1": 3.403646398041936e-06,
+          "247": 0.0,
+          "8": 4.915304280235796e-06
+        }
+      },
+      "screw": {
+        "distance_vs_knn": {
+          "1": 9.911112568129369e-06,
+          "300": 0.0,
+          "8": 8.83531753476752e-06
+        }
+      },
+      "tile": {
+        "distance_vs_knn": {
+          "1": 3.942687811265879e-06,
+          "210": 0.0,
+          "8": 8.355653475076345e-06
+        }
+      },
+      "toothbrush": {
+        "distance_vs_knn": {
+          "1": 3.545769433098611e-06,
+          "40": 0.0,
+          "8": 8.11811662892255e-06
+        }
+      },
+      "transistor": {
+        "distance_vs_knn": {
+          "1": 3.1741393531197355e-06,
+          "193": 0.0,
+          "8": 1.0278896397805666e-05
+        }
+      },
+      "wood": {
+        "distance_vs_knn": {
+          "1": 3.3063833036059414e-06,
+          "227": 0.0,
+          "8": 1.2903446792167936e-06
+        }
+      },
+      "zipper": {
+        "distance_vs_knn": {
+          "1": 7.624140229021217e-06,
+          "220": 0.0,
+          "8": 3.3627536163556803e-06
+        }
+      }
+    },
+    "corrupted_input": "pass"
+  },
+  "part": "all",
+  "per_class": [
+    {
+      "class_name": "bottle",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 1.0,
+        "n_test": 83
+      },
+      "e0b": {
+        "auroc_anomalib": 1.0,
+        "auroc_own": 1.0,
+        "max_abs_gap_after_class_minmax": 7.872431314592809e-05,
+        "max_abs_score_gap": 0.00377655029296875,
+        "spearman": 0.9999790101171234
+      }
+    },
+    {
+      "class_name": "cable",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 0.9861319340329835,
+        "n_test": 150
+      },
+      "e0b": {
+        "auroc_anomalib": 0.9917541229385307,
+        "auroc_own": 0.9917541229385307,
+        "max_abs_gap_after_class_minmax": 0.00010537414191047478,
+        "max_abs_score_gap": 0.0044097900390625,
+        "spearman": 0.9999928885728256
+      }
+    },
+    {
+      "class_name": "capsule",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 0.9752692461108895,
+        "n_test": 132
+      },
+      "e0b": {
+        "auroc_anomalib": 0.9812524930195452,
+        "auroc_own": 0.9808536098923015,
+        "max_abs_gap_after_class_minmax": 0.00010202619630372833,
+        "max_abs_score_gap": 0.005584716796875,
+        "spearman": 0.9999895644732928
+      }
+    },
+    {
+      "class_name": "hazelnut",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 1.0,
+        "n_test": 110
+      },
+      "e0b": {
+        "auroc_anomalib": 1.0,
+        "auroc_own": 1.0,
+        "max_abs_gap_after_class_minmax": 0.00011541328635744641,
+        "max_abs_score_gap": 0.003936767578125,
+        "spearman": 0.999981966954444
+      }
+    },
+    {
+      "class_name": "metal_nut",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 0.9980449657869013,
+        "n_test": 115
+      },
+      "e0b": {
+        "auroc_anomalib": 0.9970674486803519,
+        "auroc_own": 0.9970674486803519,
+        "max_abs_gap_after_class_minmax": 0.00014044663032275473,
+        "max_abs_score_gap": 0.003681182861328125,
+        "spearman": 0.9999921092085537
+      }
+    },
+    {
+      "class_name": "pill",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 0.9484451718494271,
+        "n_test": 167
+      },
+      "e0b": {
+        "auroc_anomalib": 0.9495362793235133,
+        "auroc_own": 0.9495362793235133,
+        "max_abs_gap_after_class_minmax": 0.0001162651991810093,
+        "max_abs_score_gap": 0.003543853759765625,
+        "spearman": 0.999994846795222
+      }
+    },
+    {
+      "class_name": "screw",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 0.9852428776388604,
+        "n_test": 160
+      },
+      "e0b": {
+        "auroc_anomalib": 0.9889321582291454,
+        "auroc_own": 0.9889321582291454,
+        "max_abs_gap_after_class_minmax": 0.00020115015611202325,
+        "max_abs_score_gap": 0.0051136016845703125,
+        "spearman": 0.9999970701980546
+      }
+    },
+    {
+      "class_name": "toothbrush",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 1.0,
+        "n_test": 42
+      },
+      "e0b": {
+        "auroc_anomalib": 1.0,
+        "auroc_own": 1.0,
+        "max_abs_gap_after_class_minmax": 0.0001203437886525549,
+        "max_abs_score_gap": 0.00403594970703125,
+        "spearman": 1.0
+      }
+    },
+    {
+      "class_name": "transistor",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 1.0,
+        "n_test": 100
+      },
+      "e0b": {
+        "auroc_anomalib": 0.9991666666666666,
+        "auroc_own": 0.9991666666666666,
+        "max_abs_gap_after_class_minmax": 6.822629907410338e-05,
+        "max_abs_score_gap": 0.00311279296875,
+        "spearman": 0.9999879987998799
+      }
+    },
+    {
+      "class_name": "zipper",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 0.9910714285714286,
+        "n_test": 151
+      },
+      "e0b": {
+        "auroc_anomalib": 0.9936974789915967,
+        "auroc_own": 0.9936974789915967,
+        "max_abs_gap_after_class_minmax": 7.690560160544813e-05,
+        "max_abs_score_gap": 0.003955841064453125,
+        "spearman": 0.9999999999999999
+      }
+    },
+    {
+      "class_name": "carpet",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 0.9911717495987158,
+        "n_test": 117
+      },
+      "e0b": {
+        "auroc_anomalib": 0.9915730337078652,
+        "auroc_own": 0.9915730337078652,
+        "max_abs_gap_after_class_minmax": 0.00010310459034823527,
+        "max_abs_score_gap": 0.004055023193359375,
+        "spearman": 1.0
+      }
+    },
+    {
+      "class_name": "grid",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 0.9782790309106097,
+        "n_test": 78
+      },
+      "e0b": {
+        "auroc_anomalib": 0.9774436090225563,
+        "auroc_own": 0.9774436090225563,
+        "max_abs_gap_after_class_minmax": 0.0001578668548719575,
+        "max_abs_score_gap": 0.00440216064453125,
+        "spearman": 0.9999999999999999
+      }
+    },
+    {
+      "class_name": "leather",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 1.0,
+        "n_test": 124
+      },
+      "e0b": {
+        "auroc_anomalib": 1.0,
+        "auroc_own": 1.0,
+        "max_abs_gap_after_class_minmax": 8.937460403796171e-05,
+        "max_abs_score_gap": 0.004787445068359375,
+        "spearman": 0.9999937057435089
+      }
+    },
+    {
+      "class_name": "tile",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 0.9884559884559885,
+        "n_test": 117
+      },
+      "e0b": {
+        "auroc_anomalib": 0.9873737373737375,
+        "auroc_own": 0.9873737373737375,
+        "max_abs_gap_after_class_minmax": 0.0001234921297691427,
+        "max_abs_score_gap": 0.0053558349609375,
+        "spearman": 1.0
+      }
+    },
+    {
+      "class_name": "wood",
+      "config_hash": "ec70992336b4c4a4",
+      "e0a": {
+        "auroc": 0.9894736842105263,
+        "n_test": 79
+      },
+      "e0b": {
+        "auroc_anomalib": 0.98859649122807,
+        "auroc_own": 0.98859649122807,
+        "max_abs_gap_after_class_minmax": 0.00011064150902151404,
+        "max_abs_score_gap": 0.004169464111328125,
+        "spearman": 1.0
+      }
+    }
+  ],
+  "reference_mean_auroc": 0.991,
+  "status": "PASS"
+}

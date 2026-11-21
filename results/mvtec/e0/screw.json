@@ -1,0 +1,15 @@
+{
+  "class_name": "screw",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 0.9852428776388604,
+    "n_test": 160
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9889321582291454,
+    "auroc_own": 0.9889321582291454,
+    "max_abs_gap_after_class_minmax": 0.00020115015611202325,
+    "max_abs_score_gap": 0.0051136016845703125,
+    "spearman": 0.9999970701980546
+  }
+}

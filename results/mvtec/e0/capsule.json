@@ -1,0 +1,15 @@
+{
+  "class_name": "capsule",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 0.9752692461108895,
+    "n_test": 132
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9812524930195452,
+    "auroc_own": 0.9808536098923015,
+    "max_abs_gap_after_class_minmax": 0.00010202619630372833,
+    "max_abs_score_gap": 0.005584716796875,
+    "spearman": 0.9999895644732928
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "class_name": "wood",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 0.9894736842105263,
+    "n_test": 79
+  },
+  "e0b": {
+    "auroc_anomalib": 0.98859649122807,
+    "auroc_own": 0.98859649122807,
+    "max_abs_gap_after_class_minmax": 0.00011064150902151404,
+    "max_abs_score_gap": 0.004169464111328125,
+    "spearman": 1.0
+  }
+}

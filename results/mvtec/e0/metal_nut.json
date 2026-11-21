@@ -1,0 +1,15 @@
+{
+  "class_name": "metal_nut",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 0.9980449657869013,
+    "n_test": 115
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9970674486803519,
+    "auroc_own": 0.9970674486803519,
+    "max_abs_gap_after_class_minmax": 0.00014044663032275473,
+    "max_abs_score_gap": 0.003681182861328125,
+    "spearman": 0.9999921092085537
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "class_name": "pipe_fryum",
+  "config_hash": "6177f9b75e4f7e32",
+  "e0a": {
+    "auroc": 0.992,
+    "n_bank_images": 300,
+    "n_test": 150
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9916,
+    "auroc_own": 0.9916,
+    "max_abs_gap_after_class_minmax": 0.00012865696743957766,
+    "max_abs_score_gap": 0.004726409912109375,
+    "spearman": 1.0
+  },
+  "integrity": {
+    "distance_vs_knn": {
+      "1": 4.642851195105224e-06,
+      "240": 0.0,
+      "8": 7.142466311473518e-06
+    }
+  }
+}

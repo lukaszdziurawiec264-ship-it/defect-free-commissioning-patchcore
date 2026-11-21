@@ -1,0 +1,14 @@
+{
+  "binomial_tail_p": 0.18033505619278184,
+  "class_name": "capsules",
+  "config_hash": "6177f9b75e4f7e32",
+  "defect_auroc_bank_u": 0.6754999999999999,
+  "fraction_conformal_p_below_alpha": 0.08333333333333333,
+  "good_shift_auroc": 0.5202479338842975,
+  "group": "multiple",
+  "mannwhitney_p": 0.6278724700121703,
+  "median_holdout_score": 38.95836639404297,
+  "median_test_good_score": 39.123172760009766,
+  "n_holdout": 242,
+  "n_test_good": 60
+}

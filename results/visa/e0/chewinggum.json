@@ -1,0 +1,23 @@
+{
+  "class_name": "chewinggum",
+  "config_hash": "6177f9b75e4f7e32",
+  "e0a": {
+    "auroc": 0.9904,
+    "n_bank_images": 300,
+    "n_test": 150
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9898,
+    "auroc_own": 0.9898,
+    "max_abs_gap_after_class_minmax": 0.00012559990869842608,
+    "max_abs_score_gap": 0.00345611572265625,
+    "spearman": 0.9999964442864128
+  },
+  "integrity": {
+    "distance_vs_knn": {
+      "1": 2.3906140749586398e-06,
+      "240": 0.0,
+      "8": 5.219248449100323e-06
+    }
+  }
+}

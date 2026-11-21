@@ -1,0 +1,14 @@
+{
+  "binomial_tail_p": 0.7421613408839848,
+  "class_name": "candle",
+  "config_hash": "6177f9b75e4f7e32",
+  "defect_auroc_bank_u": 0.9721,
+  "fraction_conformal_p_below_alpha": 0.04,
+  "good_shift_auroc": 0.48405,
+  "group": "multiple",
+  "mannwhitney_p": 0.6094169092632411,
+  "median_holdout_score": 23.215900421142578,
+  "median_test_good_score": 23.041577339172363,
+  "n_holdout": 600,
+  "n_test_good": 100
+}

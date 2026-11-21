@@ -1,0 +1,14 @@
+{
+  "binomial_tail_p": 1.0,
+  "class_name": "fryum",
+  "config_hash": "6177f9b75e4f7e32",
+  "defect_auroc_bank_u": 0.9374,
+  "fraction_conformal_p_below_alpha": 0.0,
+  "good_shift_auroc": 0.5166666666666666,
+  "group": "single",
+  "mannwhitney_p": 0.7253917128616325,
+  "median_holdout_score": 26.878482818603516,
+  "median_test_good_score": 26.873356819152832,
+  "n_holdout": 150,
+  "n_test_good": 50
+}

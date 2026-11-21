@@ -1,0 +1,23 @@
+{
+  "class_name": "cashew",
+  "config_hash": "6177f9b75e4f7e32",
+  "e0a": {
+    "auroc": 0.9556000000000001,
+    "n_bank_images": 300,
+    "n_test": 150
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9692,
+    "auroc_own": 0.9692,
+    "max_abs_gap_after_class_minmax": 0.00011079710618888683,
+    "max_abs_score_gap": 0.003833770751953125,
+    "spearman": 0.9999964442864128
+  },
+  "integrity": {
+    "distance_vs_knn": {
+      "1": 9.072701827922601e-06,
+      "240": 0.0,
+      "8": 5.644923175252019e-06
+    }
+  }
+}

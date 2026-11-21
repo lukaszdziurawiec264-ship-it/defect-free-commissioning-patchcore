@@ -1,0 +1,23 @@
+{
+  "class_name": "candle",
+  "config_hash": "6177f9b75e4f7e32",
+  "e0a": {
+    "auroc": 0.9715,
+    "n_bank_images": 300,
+    "n_test": 200
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9721,
+    "auroc_own": 0.9721,
+    "max_abs_gap_after_class_minmax": 0.00015410511455238307,
+    "max_abs_score_gap": 0.00339508056640625,
+    "spearman": 1.0
+  },
+  "integrity": {
+    "distance_vs_knn": {
+      "1": 7.4315185565018356e-06,
+      "240": 0.0,
+      "8": 4.898155452619653e-06
+    }
+  }
+}

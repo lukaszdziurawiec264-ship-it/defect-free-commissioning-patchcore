@@ -1,0 +1,14 @@
+{
+  "binomial_tail_p": 0.7205682476793048,
+  "class_name": "chewinggum",
+  "config_hash": "6177f9b75e4f7e32",
+  "defect_auroc_bank_u": 0.9898,
+  "fraction_conformal_p_below_alpha": 0.04,
+  "good_shift_auroc": 0.4869281045751634,
+  "group": "single",
+  "mannwhitney_p": 0.7826169679612069,
+  "median_holdout_score": 28.435800552368164,
+  "median_test_good_score": 28.368834495544434,
+  "n_holdout": 153,
+  "n_test_good": 50
+}

@@ -1,0 +1,14 @@
+{
+  "binomial_tail_p": 0.3840008720438586,
+  "class_name": "pcb1",
+  "config_hash": "6177f9b75e4f7e32",
+  "defect_auroc_bank_u": 0.9482999999999999,
+  "fraction_conformal_p_below_alpha": 0.06,
+  "good_shift_auroc": 0.5107615894039735,
+  "group": "complex",
+  "mannwhitney_p": 0.7302510044326156,
+  "median_holdout_score": 28.13096332550049,
+  "median_test_good_score": 28.15527629852295,
+  "n_holdout": 604,
+  "n_test_good": 100
+}

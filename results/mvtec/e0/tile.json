@@ -1,0 +1,15 @@
+{
+  "class_name": "tile",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 0.9884559884559885,
+    "n_test": 117
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9873737373737375,
+    "auroc_own": 0.9873737373737375,
+    "max_abs_gap_after_class_minmax": 0.0001234921297691427,
+    "max_abs_score_gap": 0.0053558349609375,
+    "spearman": 1.0
+  }
+}

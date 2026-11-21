@@ -1,0 +1,23 @@
+{
+  "class_name": "fryum",
+  "config_hash": "6177f9b75e4f7e32",
+  "e0a": {
+    "auroc": 0.9604,
+    "n_bank_images": 300,
+    "n_test": 150
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9374,
+    "auroc_own": 0.9374,
+    "max_abs_gap_after_class_minmax": 0.00017057918408588946,
+    "max_abs_score_gap": 0.004688262939453125,
+    "spearman": 0.9999964442864128
+  },
+  "integrity": {
+    "distance_vs_knn": {
+      "1": 2.9632367095923254e-06,
+      "240": 0.0,
+      "8": 9.816236233206747e-06
+    }
+  }
+}

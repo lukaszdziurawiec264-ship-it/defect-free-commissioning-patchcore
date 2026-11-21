@@ -1,0 +1,83 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+.env*
+*.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+*token*
+*secret*
+*credentials*
+*.key
+kaggle.json
+client_secret*.json
+
+# Documents and the manuscript tree. The figure script stays.
+*.pdf
+*.docx
+*.doc
+*.odt
+*.pptx
+*.xlsx
+*.tex
+*.bib
+*.aux
+*.log
+*.synctex.gz
+*.html
+manuscript/**
+!manuscript/make_figures.py
+
+# Datasets, archives, images, and model caches
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.xz
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.h5
+*.pkl
+/data/
+/cache/
+/features/
+/dist/
+/mvtec_anomaly_detection/
+/runs/
+/gap/
+/report/
+/budget/
+/visa_cache/
+/visa_runs/
+
+# Older local script, not used by the package
+archive/
+
+# Scratch from preparing this repository
+_inventory.txt
+_inventory_scan.py
+
+# Original run trees stay on disk and out of the repository.
+# Published tables live under results/.
+commissioning_runs/
+visa_runs-*/

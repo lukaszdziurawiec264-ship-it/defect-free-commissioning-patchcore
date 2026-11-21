@@ -1,0 +1,14 @@
+{
+  "binomial_tail_p": 0.4594668772804849,
+  "class_name": "pipe_fryum",
+  "config_hash": "6177f9b75e4f7e32",
+  "defect_auroc_bank_u": 0.9916,
+  "fraction_conformal_p_below_alpha": 0.06,
+  "good_shift_auroc": 0.5490666666666667,
+  "group": "single",
+  "mannwhitney_p": 0.2998018332162048,
+  "median_holdout_score": 27.213635444641113,
+  "median_test_good_score": 27.66082763671875,
+  "n_holdout": 150,
+  "n_test_good": 50
+}

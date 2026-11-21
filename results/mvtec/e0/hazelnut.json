@@ -1,0 +1,15 @@
+{
+  "class_name": "hazelnut",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 1.0,
+    "n_test": 110
+  },
+  "e0b": {
+    "auroc_anomalib": 1.0,
+    "auroc_own": 1.0,
+    "max_abs_gap_after_class_minmax": 0.00011541328635744641,
+    "max_abs_score_gap": 0.003936767578125,
+    "spearman": 0.999981966954444
+  }
+}

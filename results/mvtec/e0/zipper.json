@@ -1,0 +1,15 @@
+{
+  "class_name": "zipper",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 0.9910714285714286,
+    "n_test": 151
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9936974789915967,
+    "auroc_own": 0.9936974789915967,
+    "max_abs_gap_after_class_minmax": 7.690560160544813e-05,
+    "max_abs_score_gap": 0.003955841064453125,
+    "spearman": 0.9999999999999999
+  }
+}

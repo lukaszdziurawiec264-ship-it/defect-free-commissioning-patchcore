@@ -1,0 +1,23 @@
+{
+  "class_name": "macaroni2",
+  "config_hash": "6177f9b75e4f7e32",
+  "e0a": {
+    "auroc": 0.6945,
+    "n_bank_images": 300,
+    "n_test": 200
+  },
+  "e0b": {
+    "auroc_anomalib": 0.7019,
+    "auroc_own": 0.7018,
+    "max_abs_gap_after_class_minmax": 0.0002361420498835365,
+    "max_abs_score_gap": 0.003978729248046875,
+    "spearman": 0.9999984999624993
+  },
+  "integrity": {
+    "distance_vs_knn": {
+      "1": 2.4283500150861246e-06,
+      "240": 0.0,
+      "8": 2.3130817169209883e-06
+    }
+  }
+}

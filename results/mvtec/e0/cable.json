@@ -1,0 +1,15 @@
+{
+  "class_name": "cable",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 0.9861319340329835,
+    "n_test": 150
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9917541229385307,
+    "auroc_own": 0.9917541229385307,
+    "max_abs_gap_after_class_minmax": 0.00010537414191047478,
+    "max_abs_score_gap": 0.0044097900390625,
+    "spearman": 0.9999928885728256
+  }
+}

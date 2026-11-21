@@ -1,0 +1,15 @@
+{
+  "class_name": "pill",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 0.9484451718494271,
+    "n_test": 167
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9495362793235133,
+    "auroc_own": 0.9495362793235133,
+    "max_abs_gap_after_class_minmax": 0.0001162651991810093,
+    "max_abs_score_gap": 0.003543853759765625,
+    "spearman": 0.999994846795222
+  }
+}

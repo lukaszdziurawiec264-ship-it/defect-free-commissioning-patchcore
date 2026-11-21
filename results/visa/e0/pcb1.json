@@ -1,0 +1,23 @@
+{
+  "class_name": "pcb1",
+  "config_hash": "6177f9b75e4f7e32",
+  "e0a": {
+    "auroc": 0.9465,
+    "n_bank_images": 300,
+    "n_test": 200
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9482999999999999,
+    "auroc_own": 0.9482999999999999,
+    "max_abs_gap_after_class_minmax": 0.00013650594060277133,
+    "max_abs_score_gap": 0.00539398193359375,
+    "spearman": 0.9999984999624993
+  },
+  "integrity": {
+    "distance_vs_knn": {
+      "1": 8.139146854626698e-06,
+      "240": 0.0,
+      "8": 9.0078600690571e-06
+    }
+  }
+}

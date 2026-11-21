@@ -1,0 +1,15 @@
+{
+  "class_name": "carpet",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 0.9911717495987158,
+    "n_test": 117
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9915730337078652,
+    "auroc_own": 0.9915730337078652,
+    "max_abs_gap_after_class_minmax": 0.00010310459034823527,
+    "max_abs_score_gap": 0.004055023193359375,
+    "spearman": 1.0
+  }
+}

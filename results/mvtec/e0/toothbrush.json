@@ -1,0 +1,15 @@
+{
+  "class_name": "toothbrush",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 1.0,
+    "n_test": 42
+  },
+  "e0b": {
+    "auroc_anomalib": 1.0,
+    "auroc_own": 1.0,
+    "max_abs_gap_after_class_minmax": 0.0001203437886525549,
+    "max_abs_score_gap": 0.00403594970703125,
+    "spearman": 1.0
+  }
+}

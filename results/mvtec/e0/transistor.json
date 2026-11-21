@@ -1,0 +1,15 @@
+{
+  "class_name": "transistor",
+  "config_hash": "ec70992336b4c4a4",
+  "e0a": {
+    "auroc": 1.0,
+    "n_test": 100
+  },
+  "e0b": {
+    "auroc_anomalib": 0.9991666666666666,
+    "auroc_own": 0.9991666666666666,
+    "max_abs_gap_after_class_minmax": 6.822629907410338e-05,
+    "max_abs_score_gap": 0.00311279296875,
+    "spearman": 0.9999879987998799
+  }
+}

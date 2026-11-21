@@ -1,0 +1,14 @@
+{
+  "binomial_tail_p": 1.0,
+  "class_name": "cashew",
+  "config_hash": "6177f9b75e4f7e32",
+  "defect_auroc_bank_u": 0.9692,
+  "fraction_conformal_p_below_alpha": 0.0,
+  "good_shift_auroc": 0.4441333333333334,
+  "group": "single",
+  "mannwhitney_p": 0.23770262405877318,
+  "median_holdout_score": 25.07268238067627,
+  "median_test_good_score": 24.680326461791992,
+  "n_holdout": 150,
+  "n_test_good": 50
+}
